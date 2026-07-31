@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --color01: #14213D ;
+    --color02: #CD7F32;
+}
+
 body {
-    background-color: black;
+    background-color: var(--color02);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -9,9 +14,25 @@ html {
     scroll-behavior: smooth;
 }
 
+.navbar{
+    background-color: rgba(20, 33, 61, 0.8);
+    height: 64px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.texto-navbar{
+    display: flex;
+    margin-left: 27rem;
+    gap: 4rem;
+}
+
 .home {
     display: flex;
-    color: bisque;
+    color: var(--color01);
     margin-top: 2rem;
     height: 100vh;
 }
@@ -33,4 +54,29 @@ html {
     display: flex;
     gap: 2rem;
     margin-left: 2rem;
+}
+
+
+
+.card{
+    background-color: rgb(250, 231, 206);
+    border-radius: 2rem;
+}
+
+.pingado{
+    height: 190px; 
+    object-fit: cover;
+}
+
+.btn{
+    background-color: rgba(0, 145, 230, 0.877);
+    width: 128px;
+    margin-left: 3rem;
+}
+.h1-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #14213D;
+    margin-bottom: 2rem;
 }
