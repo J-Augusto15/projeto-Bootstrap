@@ -68,6 +68,12 @@ html {
     object-fit: cover;
 }
 
+.preco{
+    font-weight: 700;
+    color: var(--color01);
+    margin-bottom: 0.5rem;
+}
+
 .btn{
     background-color: rgba(0, 145, 230, 0.877);
     width: 128px;
@@ -79,4 +85,65 @@ html {
     justify-content: center;
     color: #14213D;
     margin-bottom: 2rem;
+}
+
+.sobre-section{
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    border: 16px;
+    border-color: #14213D ;
+}
+
+.sobre-conteudo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sobre-img{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 2rem;
+    flex-shrink: 0;
+}
+
+.sobre-texto{
+    color: var(--color01);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+.footer{
+    background-color: rgba(20, 33, 61, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.footer-redes{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: var(--color02);
+    text-decoration: underline;
+}
+
+.footer-copy{
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.7);
+    margin: 0;
 }
